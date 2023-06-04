@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin-right: 10px;
+}
+
+.nav-list li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+li a:hover {
+  background-color: #BE0032;
+}
+
+.active {
+  background-color: #BE0032;
+}
+
+
+.content {
+	margin-top: 70px;
+	padding: 20px;
+}
+
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+.address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
+
+
+
+
+
+
+
+
+
+
+t* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #BE0032;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+
+.content-table tbody tr {
+    border-bottom: 2px solid #BE0032;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: ;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #BE0032;
+	
+	
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-color: #BE0032;
+}
+
+h1 {
+  margin-top: 55px;
+  margin-left: 1px;
+}
+
+body{
+    margin: 0%;
+	margin-left: 10px;
+    padding: 0%;
+    font-family: "Arial", Helvetica, sans-serif;
+	 background-color: white;
+  color: black;
+}
+i{
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 54%;
+    left: 1.5%;
+    transform: translate(-50%, -50%);
+}
+
